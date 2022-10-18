@@ -1,0 +1,23 @@
+{
+  "name": "rest-api-nodejs",
+  "version": "1.0.0",
+  "description": "practice project for rest api in nodeJs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Aditya pandey",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2",
+    "swig": "^1.4.2",
+    "toastify-js": "^1.12.0"
+  }
+}

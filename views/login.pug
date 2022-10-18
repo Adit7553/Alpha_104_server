@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Silkscreen">
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/public/css/style1.css">
+</head>
+<body>
+  include ./layouts/navbar.pug
+      <form action="/login" method="post">
+        <div class="devtest">
+            <h4>#{message}</h4>
+        <h1 class="font-effect-fire" >Login here</h1><br>
+        <div class="test">
+          <input class="mb-4 col-lg-6" type="email" required name="email" id="email" placeholder="Username or email">
+          <input class="mb-4 col-lg-6" type="text" required name="password" id="password" placeholder="Password"> 
+          <br><button class="btnSubmit">Login</button>
+        </div>
+      </form>
+      </div>
+      include ./layouts/footer.pug
+</body>
+</html>
